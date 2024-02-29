@@ -113,7 +113,6 @@ impl EguiStateHandler {
             pointer_pos: Pos2::new(0f32, 0f32),
             input: egui::RawInput {
                 screen_rect: Some(painter.screen_rect),
-                pixels_per_point: Some(native_pixels_per_point),
                 ..Default::default()
             },
             modifiers: Modifiers::default(),
